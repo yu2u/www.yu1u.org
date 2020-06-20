@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2020-06-01T14:40:16.721Z</updated>
+    <updated>2020-06-20T02:11:30.365Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
@@ -11,6 +11,20 @@
     <logo>https://www.yu1u.org/images/avatar.png</logo>
     <icon>https://www.yu1u.org/favicon.ico</icon>
     <rights>All rights reserved 2020, ご雨 路</rights>
+    <entry>
+        <title type="html"><![CDATA[入手大疆 MAVIC AIR 2 无人机]]></title>
+        <id>https://www.yu1u.org/MAVIC-AIR-2/</id>
+        <link href="https://www.yu1u.org/MAVIC-AIR-2/">
+        </link>
+        <updated>2020-06-20T01:37:50.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://i.loli.net/2020/06/20/my7dQ6Iu3vLzWs2.jpg" alt="" loading="lazy"><br>
+大疆在2020年4月28日发布了MAVIC AIR 2，官网介绍：https://www.dji.com/cn/mavic-air-2 ，发布的当天就下单购买了一台，这台无人机也是我的第三台无人机。第一台是精灵3高级版，不得不说精灵系列是最霸气最经典的机型，但不利于携带，起飞准备工作也比较麻烦，入手没多久就保本原价出了。第二台无人机是大疆spark，当时也是因为价格便宜，体型小巧而入手，但实际也是比较坑的机型，主要还是有效续航非常短，WIFI图传较弱，软件功能也没有御系列那么多，放在家里经常吃灰。最近大疆御mavic air 2发布以后，想都没想就入手了， 嗯 真香。</p>
+<p>购买的第二天就收到货了，经过快两个月的使用，总体感觉还是不错的，大疆果然每发布新一代产品，都在革自己的命，牙膏一不小心就挤太多了。比较满意的地方主要是续航、可玩性、图传较优秀，目前暂时发现的不足就是APP不是以前的DJI GO4，新版APP功能比较少，可能为了减少DJI GO4的开发体积，DJI FLY要专注一些。</p>
+<p>由于博客不支持发布视频，所以只能贴出近期穿云的照片（非原图，画质有压缩）<br>
+<img src="https://i.loli.net/2020/06/20/RFIVi7Up16eODnC.jpg" alt="" loading="lazy"></p>
+<figure data-type="image" tabindex="1"><img src="https://i.loli.net/2020/06/20/LMG7Qn24HYbOIJf.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[入手了大水壶 BOSE SoundLink Revolve+]]></title>
         <id>https://www.yu1u.org/BOSE_SoundLink_Revolve+/</id>
@@ -319,85 +333,6 @@ Chrome 插件 <a href="https://chrome.google.com/webstore/detail/neatdownloadman
 <p>打开本程序，输入“4”（共享和权限设置），按回车，打开系统的“共享文件夹”管理器，右键“共享”，可新建共享；右键右侧共享文件夹可停止共享；右键右侧共享文件夹，选择属性”，可设置文件夹的“*共享权限”和“*安全”（权限）。只有4Kb，超级小巧，但是功能强大。</p>
 <h2 id="下载地址">下载地址</h2>
 <p><a href="https://www.yu1u.org/file/code/okshare.zip">本地下载</a></p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Buy the Best Wireless Network Adapter for Wi-Fi Hacking in 2019]]></title>
-        <id>https://www.yu1u.org/W3iX4Kdes/</id>
-        <link href="https://www.yu1u.org/W3iX4Kdes/">
-        </link>
-        <updated>2019-11-25T12:52:59.000Z</updated>
-        <summary type="html"><![CDATA[<p>作者是:SADMIN@SADMIN2001 看不懂没关系,浏览器翻译功能了解下,或者直接找到文中的芯片或型号选择合适的无线网卡.</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>作者是:SADMIN@SADMIN2001 看不懂没关系,浏览器翻译功能了解下,或者直接找到文中的芯片或型号选择合适的无线网卡.</p>
-<!-- more -->
-<p>To hack a Wi-Fi network using Kali Linux, you need your wireless card to support monitor mode and packet injection. Not all wireless cards can do this, so I've rounded up this list of 2019's best wireless network adapters for hacking on Kali Linux to get you started hacking both WEP and WPA Wi-Fi networks.</p>
-<h2 id="wi-fi-hacking-for-beginners">Wi-Fi Hacking for Beginners</h2>
-<p>Kali Linux is by far the best supported hacking distro for beginners, and Wi-Fi hacking on Kali (previously called BackTrack) is where I started my own journey into hacking. In order to hack Wi-Fi, you will quickly learn that a wireless network adapter supporting packet injection and monitor mode is essential. Without one, many attacks are impossible, and the few that work can take days to succeed. Fortunately, there are several good adapters to choose from.<br>
-<img src="https://img.wonderhowto.com/img/28/66/63634728058013/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-上图为一系列与Kali Linux兼容的网络适配器。牌子就是alfa的</p>
-<p>If you're new to hacking Wi-Fi, Null Byte's Kali Pi hacking platform is a great way to get started hacking on Kali Linux for little investment. Any of the wireless network adapters on this list can be combined with a Raspberry Pi to build your own Wi-Fi hacking computer.<br>
-<img src="https://img.wonderhowto.com/img/53/58/63634733900257/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-支持网络的树莓派是一个低成本功能强大的kali linux黑客平台</p>
-<p>What's so great about wireless network adapters? By swapping out the antenna or adapter type, we can target different kinds of networks. We can even target far-away networks with the addition of special super long-range directional antennas like the Yagi antenna ($91.99).</p>
-<h2 id="chipsets-supported-by-kali-linux">Chipsets Supported by Kali Linux</h2>
-<p>So how do you pick the best wireless network adapter for hacking? If you're hacking on Kali, certain chipsets (the chip that controls the wireless adapter) will work without much or any configuration needed.</p>
-<p><img src="https://img.wonderhowto.com/img/81/72/63634552058950/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-ALFA网卡AWUS036NHA中的Atheros AR9271芯片组。</p>
-<h2 id="chipsets-that-work-with-kali-include">Chipsets that work with Kali include:</h2>
-<p>Atheros AR9271<br>
-Ralink RT3070<br>
-Ralink RT3572<br>
-Realtek 8187L (Wireless G adapters)<br>
-Realtek RTL8812AU (newly in 2017)<br>
-my research also suggests the Ralink RT5370N is compatible</p>
-<p>In 2017, Kali Linux began supporting drivers for the RTL8812AU wireless chipsets. These drivers are not part of the standard Linux kernel and have been modified to allow for injection. This is a big deal because this chipset is one of the first to support 802.11 AC, bringing injection-related wireless attacks to this standard.</p>
-<p><img src="https://img.wonderhowto.com/img/53/93/63634558474125/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-兼容Kali Linux的无线网卡。</p>
-<p>Adapters That Use the Ralink RT3070 Chipset<br>
-The Alfa AWUS036NH 2.4 GHz ($31.99 on Amazon) 淘宝价位65 ~ 一百多不等</p>
-<p>The Alfa AWUS036NH is a b/g/n adapter with an absurd amount of range. This is amplified by the omnidirectional antenna and can be paired with a Yagi ($29.95) or Paddle ($23.99) antenna to create a directional array.<br>
-大意就是AWUS036NH支持下面两款外挂高增益天线,价格不便宜.<br>
-<a href="https://www.amazon.com/Brands-Wireless-2-4GHz-Antenna-Booster/dp/B0054MLMLA">https://www.amazon.com/Brands-Wireless-2-4GHz-Antenna-Booster/dp/B0054MLMLA</a><br>
-<a href="https://www.amazon.com.au/Alfa-APA-M25-directional-connector-WL-ANT-157/dp/B00R1PA9EO/?tag=wnbau-22">https://www.amazon.com.au/Alfa-APA-M25-directional-connector-WL-ANT-157/dp/B00R1PA9EO/?tag=wnbau-22</a></p>
-<p><img src="https://img.wonderhowto.com/img/15/95/63634551755185/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-AWUSO36NH.<br>
-The Alfa AWUS036NEH 2.4 GHz <a href="https://www.amazon.com.au/dp/B0035OCVO6/">($29.99 on Amazon)</a>,淘宝目前没有<br>
-If you're looking for a somewhat more compact wireless adapter that can be plugged in via USB, the Alfa AWUS036NEH is a powerful b/g/n adapter that's slim and doesn't require a USB cable to use.<br>
-<img src="https://img.wonderhowto.com/img/39/25/63634552490559/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-AWUS036NEH，相对紧凑，具有极高的范围。</p>
-<p>The Panda PAU05 2.4 GHz <a href="https://www.amazon.com.au/dp/B00EQT0YK2/?">($13.99 on Amazon)</a><br>
-Sometimes you need a stealthier option that's still powerful enough to pwn networks without making a big fuss about plugging in large, suspicious network adapters. Consider the g/n PAU05, affectionately nicknamed &quot;El Stubbo&quot; and a personal favorite both for its low profile and its aggressive performance in the short and medium range. Consider this if you need to gather network data without including everything within several blocks.</p>
-<p>A note on the Panda from one of our readers: The Panda PAUO5 on Amazon won't do packet injection. It seems they now ship with an unsupported chipset (RT5372), so make sure yours has the correct chipset!<br>
-<img src="https://img.wonderhowto.com/img/46/54/63634552822589/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-PAU05，超低调，是我的最爱之一。</p>
-<p>Adapters That Use the Atheros AR9271 Chipset<br>
-The Alfa AWUS036NHA 2.4 GHz ($37.69 on Amazon)</p>
-<p>The Alfa AWUS036NHA is my current long-range network adapter and the standard by which I judge other long-range adapters. For a long-range application, this paired with a ridiculously big adapter ($9.99) is a stable, fast, and well-supported b/g/n wireless network adapter.<br>
-<img src="https://img.wonderhowto.com/img/12/57/63634735069038/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-AWUS036NHA具有出色的远程性能。</p>
-<p>The TP-LINK TL-WN722N 2.4 GHz ($14.99 on Amazon)</p>
-<p>A favorite for newbies and experienced hackers alike, this compact b/g/n is among the cheapest but boasts surprisingly impressive performance. That being said, only v1 of this adapter will work with Kali Linux. The v2 version of this adapter is a different chipset, so make sure you check to see which yours is!<br>
-<img src="https://img.wonderhowto.com/img/45/74/63634553647778/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-警告：仅此适配器的版本ONE可以与Kali一起使用。</p>
-<p>Adapters That Use the Ralink RT5370N Chipset<br>
-The Detroit DIY Electronics Wifi Antenna For Raspberry Pi ($11.99 on Amazon)</p>
-<p>While I haven't tested this IEEE 802.11n compatible adapter personally, the chipset is supported in Kali and it supports monitor mode. For an extremely compact adapter with an external antenna mount for swapping different types of antennas, the Detroit DIY Electronics Wifi Antenna For Raspberry Pi is a good starter option.<br>
-<img src="https://img.wonderhowto.com/img/57/97/63634841646475/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-Detroit电子公司的紧凑型选件。</p>
-<p>Adapters That Use the Realtek RTL8812AU Chipset (New)<br>
-The Alfa AWUS036ACH 802.11ac AC1200 Wide-Range USB 3.0 Wireless Adapter with External Antenna ($59.99 on Amazon)</p>
-<p>Newly supported in 2017, the Alfa AWUS036ACH is a beast, with dual antennas and 2.4 GHz 300 Mbps/5 GHz 867 Mbps – 802.11ac and a, b, g, n compatibility. This is the newest offering I've found that's compatible with Kali, so if you're looking for the fastest and longest range, this would be the adapter to start with.</p>
-<p>To use this, you may need to first run the following.</p>
-<p>apt update<br>
-apt install realtek-rtl88xxau-dkms</p>
-<p>This will install the needed drivers, and you should be good to go.<br>
-<img src="https://img.wonderhowto.com/img/60/01/63634555251956/0/buy-best-wireless-network-adapter-for-wi-fi-hacking-2019.w1456.jpg" alt="" loading="lazy"><br>
-Alfa AWUS036ACH, 可以破解802.11ac.</p>
-<p>Other Options<br>
-During my research, I also came across the following adapters with supported chipsets, but only anecdotal evidence of packet injection and monitor mode. If you're feeling adventurous, you can pick up one of the following supported adapters mention in the comments how it works for you.</p>
-<p>The WiFi <a href="https://www.amazon.com.au/WiFi-Module-ODROID-other-SBC/dp/B01LEVD0H8/">Module 4</a> ($27.95) by Hard Kernel uses the supported Ralink RT5572 chipset, which adds 5 GHz capabilities, and also works in 2.4 GHz.</p>
-<p>An ultra-compact option is also the WiFi <a href="https://www.amazon.com.au/WiFi-Module-ODROID-other-SBC/dp/B01LYSIN8A/?tag=wnbau-22">Module 0</a> ($7.95), also by Hard Kernel, based on Ralink RT5370N chipset.</p>
 ]]></content>
     </entry>
 </feed>
