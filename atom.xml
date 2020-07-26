@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2020-06-20T02:28:12.088Z</updated>
+    <updated>2020-07-26T02:44:26.363Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
@@ -294,7 +294,7 @@ webpad 斐讯天天链N1 官改v2.2【可选】<br>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[完全免费的多线程下载工具DNM（Neat Download Manager）]]></title>
+        <title type="html"><![CDATA[完全免费的多线程下载工具NDM（Neat Download Manager）]]></title>
         <id>https://www.yu1u.org/GfdoNgnJ3/</id>
         <link href="https://www.yu1u.org/GfdoNgnJ3/">
         </link>
