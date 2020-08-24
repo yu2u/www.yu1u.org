@@ -2,13 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2020-07-26T04:11:08.305Z</updated>
+    <updated>2020-08-24T08:02:30.034Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
     <logo>https://www.yu1u.org/images/avatar.png</logo>
     <icon>https://www.yu1u.org/favicon.ico</icon>
     <rights>All rights reserved 2020, ご雨 路</rights>
+    <entry>
+        <title type="html"><![CDATA[如何理解IaaS、PaaS、SaaS]]></title>
+        <id>https://www.yu1u.org/GKIX5urrJ/</id>
+        <link href="https://www.yu1u.org/GKIX5urrJ/">
+        </link>
+        <updated>2020-08-24T01:57:22.000Z</updated>
+        <content type="html"><![CDATA[<p>平时在学习中经常看到IaaS、PaaS、SaaS这样的词语，有时我们也在使用以上平台提供的服务，所以就专门学习了这方面的介绍，看到网上的科普有些抽象，下面以通俗易懂的语言进行记录。</p>
+<h2 id="iaas-infrastructure-as-a-service基础设施即服务">IaaS: Infrastructure-as-a-Service(基础设施即服务)</h2>
+<p>IaaS，相当于将硬件基础设施外包。IaaS公司会提供场外服务器，存储和网络硬件，你可以租用。省去了维护和场地，属于最底层的一种服务。可以理解为把硬件设施如：服务器、网络设备、防火墙等租给你，你可以远程进行管理，对硬件进行操作，如常见的：重装系统，开关机、重启，部署网络和防火墙策略等。</p>
+<h2 id="paas-platform-as-a-service平台即服务">PaaS: Platform-as-a-Service(平台即服务)</h2>
+<p>PaaS，可以理解为软件应用提供运行环境。属于中间的一层服务。例如数据库，WEB服务器，对象储存等，可以理解为给你一个平台，可以将开发好的软件应用发布到上门运行。</p>
+<h2 id="saas-software-as-a-service软件即服务">SaaS: Software-as-a-Service(软件即服务)</h2>
+<p>SaaS，这一层是我们经常接触最多的一层，属于顶层的服务。如各种网站以及手机APP等。</p>
+<p>我们可以将它们分层<br>
+基础设施层（IaaS）、平台层（PaaS）、软件层（SaaS）<br>
+<img src="https://i.loli.net/2020/08/24/s4D6lU1Fe8yudBO.jpg" alt="" loading="lazy"><br>
+<img src="https://i.loli.net/2020/08/24/beURKgoZaY42SGQ.jpg" alt="" loading="lazy"></p>
+<p>参考资料：<br>
+https://www.zhihu.com/question/21641778</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[大理崇圣寺]]></title>
         <id>https://www.yu1u.org/dali/</id>
@@ -301,25 +322,6 @@ webpad 斐讯天天链N1 官改v2.2【可选】<br>
 <p>三、移动用户证明方法</p>
 <p>编写CXMYD,发送到10086,再依据回复短信输入身份证后四位，可查询过去一个月内去过的省和直辖市(无地市)。</p>
 <p>本文由雨路于2020年2月23日 16:07:41最后更新</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[完全免费的多线程下载工具NDM（Neat Download Manager）]]></title>
-        <id>https://www.yu1u.org/GfdoNgnJ3/</id>
-        <link href="https://www.yu1u.org/GfdoNgnJ3/">
-        </link>
-        <updated>2020-01-30T14:12:48.000Z</updated>
-        <summary type="html"><![CDATA[<p>使用了一段时间，感觉还不错，除了软件界面和功能有点简陋以外，基本功能和IDM已经没有太大区别了，可以替代IDM作为主力下载工具。支持windows和osx平台，支持最大32线程下载。目前软件语言只有英文，通过邮件联系开发者，他告诉我多国语言已经安排了，不过语言问题不影响使用，稍微有点基础都可以看懂。</p>
-]]></summary>
-        <content type="html"><![CDATA[<p>使用了一段时间，感觉还不错，除了软件界面和功能有点简陋以外，基本功能和IDM已经没有太大区别了，可以替代IDM作为主力下载工具。支持windows和osx平台，支持最大32线程下载。目前软件语言只有英文，通过邮件联系开发者，他告诉我多国语言已经安排了，不过语言问题不影响使用，稍微有点基础都可以看懂。</p>
-<!-- more -->
-<p><img src="https://i.loli.net/2020/01/30/zPty1e7O2ksGYWE.png" alt="12.png" loading="lazy"><br>
-<img src="https://i.loli.net/2020/01/30/2xGhoTlXObtiv9k.png" alt="13.png" loading="lazy"></p>
-<p>官方网站：http://www.neatdownloadmanager.com<br>
-官方下载：<br>
-Windows <a href="http://www.neatdownloadmanager.com/file/NeatDM_setup.exe">http://www.neatdownloadmanager.com/file/NeatDM_setup.exe</a><br>
-OSX  <a href="http://www.neatdownloadmanager.com/file/NeatDMInstaller.dmg">http://www.neatdownloadmanager.com/file/NeatDMInstaller.dmg</a><br>
-Chrome 插件 <a href="https://chrome.google.com/webstore/detail/neatdownloadmanager-exten/cpcifbdmkopohnnofedkjghjiclmhdah">https://chrome.google.com/webstore/detail/neatdownloadmanager-exten/cpcifbdmkopohnnofedkjghjiclmhdah</a>  和IDM一样，安装插件可以支持网页资源嗅探下载。</p>
 ]]></content>
     </entry>
 </feed>
