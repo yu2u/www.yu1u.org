@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2020-08-25T08:57:21.526Z</updated>
+    <updated>2020-08-25T09:08:23.575Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
@@ -17,10 +17,10 @@
         <updated>2020-08-25T05:51:25.000Z</updated>
         <content type="html"><![CDATA[<h2 id="cobalt-strike-40-汉化版下载地址">Cobalt Strike 4.0 汉化版下载地址：</h2>
 <p>链接: <a href="https://pan.baidu.com/s/1JH8nZtqmEkgGZtRnLci4IA">https://pan.baidu.com/s/1JH8nZtqmEkgGZtRnLci4IA</a>  提取码: yu1u<br>
-安全性未知，请虚拟机使用。两个文件都差不多，选择合适的其一。</p>
+安全性未知，请在虚拟机使用。两个文件都差不多，选择合适的即可。</p>
 <h2 id="下面主要介绍windows平台下的使用">下面主要介绍Windows平台下的使用</h2>
 <p>由于第一次用Cobalt Strike，浏览了大量教程都介绍得不是很详细，遇到了一些小坑，经过几个小时的摸索，把运行的问题解决了，并进行了一些设置。CobaltStrike.jar 主程序不能直接启动，需要带参数的命令才能运行。运行之后还需要连接团队服务器（TeamServer）才能登录。<br>
-解压之后主要关注这几个 文件：<br>
+解压之后主要关注这几个文件：<br>
 teamserver<br>
 teamserver.bat<br>
 cobaltstrike.bat（或者start.bat）</p>
@@ -32,7 +32,7 @@ cobaltstrike.bat（或者start.bat）</p>
 <p>可以使用chmod +x 命令给这个文件和当前目录添加执行权限。</p>
 <p>teamserver.bat：是Windows环境下的团队服务器脚本，只能在Windows下运行，运行参数为<br>
 管理员模式运行cmd，切换到当前cobaltstrike目录，直接输入teamserver.bat 192.168.30.130 yulu 就可以运行。</p>
-<p><strong>cobaltstrike.bat</strong>（或者start.bat）是cobaltstrike启动器，一般是加参数的批处理，直接运行即可打开cobaltstrike主界面。</p>
+<p><strong>cobaltstrike.bat</strong>（或者start.bat）是cobaltstrike启动器，一般是加参数的批处理，直接运行就可以打开cobaltstrike主界面。</p>
 <h2 id="windows平台使用cobaltstrike的一些优化">Windows平台使用cobaltstrike的一些优化</h2>
 <p>由于每次都要使用管理员模式运行cmd，还需要切换到cobaltstrike目录，效率比较低，自己弄了一些方法，实现一键同时启动团队服务器和cobaltstrike。<br>
 首先在目录下新建一个批处理，我命名为 start_all.bat<br>
@@ -43,7 +43,7 @@ start  /min teamserver.bat 192.168.159.142 yulu
 start  /min  cobaltstrike.bat（或start.bat）
 </code></pre>
 <p>创建快捷方式到桌面，右键属性-高级-勾选用管理员身份运行</p>
-<p>这样每次点开即可实现同时启动，运行以后会闪两个黑框缩小到任务栏，不建议关闭，否则会不正常。</p>
+<p>这样每次点开就可以同时启动，运行以后会闪两个黑框缩小到任务栏，不建议关闭，否则会不正常。</p>
 <h2 id="更多资料">更多资料：</h2>
 <p><a href="https://github.com/yu2u/Awesome-CobaltStrike">Awesome CobaltStrike</a><br>
 <a href="https://github.com/Snowming04/CobaltStrike4.0_related">Cobalt Strike 4.0官方手册&amp;Cobalt Strike 使用记录的一些笔记</a></p>
