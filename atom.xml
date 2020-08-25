@@ -2,13 +2,53 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2020-08-24T08:02:30.034Z</updated>
+    <updated>2020-08-25T08:57:21.526Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
     <logo>https://www.yu1u.org/images/avatar.png</logo>
     <icon>https://www.yu1u.org/favicon.ico</icon>
     <rights>All rights reserved 2020, ご雨 路</rights>
+    <entry>
+        <title type="html"><![CDATA[Cobalt Strike 4.0 初次使用笔记]]></title>
+        <id>https://www.yu1u.org/ArWXn4iK5/</id>
+        <link href="https://www.yu1u.org/ArWXn4iK5/">
+        </link>
+        <updated>2020-08-25T05:51:25.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="cobalt-strike-40-汉化版下载地址">Cobalt Strike 4.0 汉化版下载地址：</h2>
+<p>链接: <a href="https://pan.baidu.com/s/1JH8nZtqmEkgGZtRnLci4IA">https://pan.baidu.com/s/1JH8nZtqmEkgGZtRnLci4IA</a>  提取码: yu1u<br>
+安全性未知，请虚拟机使用。两个文件都差不多，选择合适的其一。</p>
+<h2 id="下面主要介绍windows平台下的使用">下面主要介绍Windows平台下的使用</h2>
+<p>由于第一次用Cobalt Strike，浏览了大量教程都介绍得不是很详细，遇到了一些小坑，经过几个小时的摸索，把运行的问题解决了，并进行了一些设置。CobaltStrike.jar 主程序不能直接启动，需要带参数的命令才能运行。运行之后还需要连接团队服务器（TeamServer）才能登录。<br>
+解压之后主要关注这几个 文件：<br>
+teamserver<br>
+teamserver.bat<br>
+cobaltstrike.bat（或者start.bat）</p>
+<p>teamserver ：是Linux环境下的团队服务器脚本，只能在Linux下运行，运行参数为</p>
+<pre><code class="language-shell">   sudo ./teamserver 192.168.30.129 yulu  
+</code></pre>
+<p>IP是团队服务器的地址，yulu是登入密码，如果执行遇到下面这种情况：</p>
+<figure data-type="image" tabindex="1"><img src="https://pic.downk.cc/item/5f44c7f0160a154a672b5fb5.png" alt="" loading="lazy"></figure>
+<p>可以使用chmod +x 命令给这个文件和当前目录添加执行权限。</p>
+<p>teamserver.bat：是Windows环境下的团队服务器脚本，只能在Windows下运行，运行参数为<br>
+管理员模式运行cmd，切换到当前cobaltstrike目录，直接输入teamserver.bat 192.168.30.130 yulu 就可以运行。</p>
+<p><strong>cobaltstrike.bat</strong>（或者start.bat）是cobaltstrike启动器，一般是加参数的批处理，直接运行即可打开cobaltstrike主界面。</p>
+<h2 id="windows平台使用cobaltstrike的一些优化">Windows平台使用cobaltstrike的一些优化</h2>
+<p>由于每次都要使用管理员模式运行cmd，还需要切换到cobaltstrike目录，效率比较低，自己弄了一些方法，实现一键同时启动团队服务器和cobaltstrike。<br>
+首先在目录下新建一个批处理，我命名为 start_all.bat<br>
+内容：</p>
+<pre><code class="language-shell">d:
+cd D:\Tools\cs\cobaltstrike\
+start  /min teamserver.bat 192.168.159.142 yulu  
+start  /min  cobaltstrike.bat（或start.bat）
+</code></pre>
+<p>创建快捷方式到桌面，右键属性-高级-勾选用管理员身份运行</p>
+<p>这样每次点开即可实现同时启动，运行以后会闪两个黑框缩小到任务栏，不建议关闭，否则会不正常。</p>
+<h2 id="更多资料">更多资料：</h2>
+<p><a href="https://github.com/yu2u/Awesome-CobaltStrike">Awesome CobaltStrike</a><br>
+<a href="https://github.com/Snowming04/CobaltStrike4.0_related">Cobalt Strike 4.0官方手册&amp;Cobalt Strike 使用记录的一些笔记</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[如何理解IaaS、PaaS、SaaS]]></title>
         <id>https://www.yu1u.org/GKIX5urrJ/</id>
@@ -292,36 +332,6 @@ webpad 斐讯天天链N1 官改v2.2【可选】<br>
 <p>[3].侯宁, 干扰素的临床应用评价. 中国医院用药评价与分析, 2015. 15(01): 第12-15页.</p>
 <p>[4].张伟霞,蔡卫民.Ⅰ型干扰素临床应用最新进展[J].中国药房,2006(02):145-147.</p>
 <p>[5].郭宏玥, 尚嘉鹏与毛静怡, 干扰素的剂型及其研究近况. 天津药学, 2009. 21(05): 第71-73页.</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[新型冠状病毒肺炎专题]]></title>
-        <id>https://www.yu1u.org/Covid-19/</id>
-        <link href="https://www.yu1u.org/Covid-19/">
-        </link>
-        <updated>2020-01-30T14:41:55.000Z</updated>
-        <content type="html"><![CDATA[<iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>
-<h2 id="自我防护">自我防护</h2>
-<p><a target="_blank" href="https://mp.weixin.qq.com/s/EAyDQappp2tH8P87xZSCdw" class="btn btn-white">了解细菌、病毒、传染病等基础知识</a></p>
-<p><a target="_blank" href="http://www.nhc.gov.cn/xcs/kpzs/list_gzbd.shtml" class="btn btn-white">国家卫健委-新型冠状病毒科普知识</a></p>
-<p><a target="_blank" href="https://www.yu1u.org/JpClk2IFE/" class="btn btn-white">防控新型冠状病毒感染的肺炎，我们应该知道这些</a></p>
-<p><a target="_blank" href="https://www.bilibili.com/video/av85385462" class="btn btn-white">戴口罩洗手的正确姿势</a></p>
-<p><a target="_blank" href="https://expert.baidu.com/med/template/#/pages/speTopic/activity/index" class="btn btn-white">新型肺炎防护自查手册</a> <a target="_blank" href="https://www.yu1u.org/6tlMl2xzw/" class="btn btn-white">PDF版</a></p>
-<p><a href="https://sspai.com/post/58597" target="_blank" class="btn btn-white">二手、假货口罩正在发国难财！教你如何避免买到黑心口罩</a></p>
-<p><a target="_blank" href="http://lxjk.people.cn/GB/404218/431655/431797/" class="btn btn-white">人民网全国口罩预订信息共享平台</a></p>
-<p><a target="_blank" href="https://m.smzdm.com/zhuanti/yq/yqzq/" class="btn btn-white">什么值得买口罩线索专区</a></p>
-<h2 id="疫情地图-疫情播报">疫情地图 / 疫情播报</h2>
-<p><a target="_blank" href="https://activity.peopleapp.com/broadcast/" class="btn btn-white">人民日报</a> <a target="_blank" href="https://3g.dxy.cn/newh5/view/pneumonia" class="btn btn-white">丁香园</a> <a target="_blank" href="http://news.163.com/special/epidemic/" class="btn btn-white">网易</a> <a target="_blank" href="https://news.qq.com/zt2020/page/feiyan.htm" class="btn btn-white">腾讯</a> <a target="_blank" href="https://news.ifeng.com/c/special/7tPlDSzDgVk" class="btn btn-white">凤凰新闻</a> <a target="_blank" href="http://yiqing.ahusmart.com/" class="btn btn-white">网友自制</a> <a target="_blank" href="http://www.nhc.gov.cn/xcs/xxgzbd/gzbd_index.shtml" class="btn btn-white">国家卫健委</a></p>
-<h2 id="查询工具">查询工具</h2>
-<p><a target="_blank" href="http://2019ncov.nosugartech.com/" class="btn btn-white">确诊患者相同行程查询</a></p>
-<h2 id="个人轨迹证明方法">【个人轨迹证明方法】</h2>
-<p>一、电信手机用户证明方法</p>
-<p>编辑短信CXMYD#身份证号码后四位到10001，授权回复Y后，实现“漫游地查询&quot;，可查询手机号近15日内的途径地信息。</p>
-<p>二、联通手机用户证明方法</p>
-<p>手机发送:“CXMYD#身份证后四位”至10010，查询近30天的全国漫游地信息，便于返工辅助排查。</p>
-<p>三、移动用户证明方法</p>
-<p>编写CXMYD,发送到10086,再依据回复短信输入身份证后四位，可查询过去一个月内去过的省和直辖市(无地市)。</p>
-<p>本文由雨路于2020年2月23日 16:07:41最后更新</p>
 ]]></content>
     </entry>
 </feed>
