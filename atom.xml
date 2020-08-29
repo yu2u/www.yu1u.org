@@ -2,13 +2,103 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2020-08-25T13:26:11.685Z</updated>
+    <updated>2020-08-29T15:17:05.686Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
     <logo>https://www.yu1u.org/images/avatar.png</logo>
     <icon>https://www.yu1u.org/favicon.ico</icon>
     <rights>All rights reserved 2020, ご雨 路</rights>
+    <entry>
+        <title type="html"><![CDATA[Python学习笔记（一）]]></title>
+        <id>https://www.yu1u.org/w5wO9m3Te/</id>
+        <link href="https://www.yu1u.org/w5wO9m3Te/">
+        </link>
+        <updated>2020-08-28T08:17:07.000Z</updated>
+        <content type="html"><![CDATA[<p>Python 里，常用的数据类型有三种：字符串，整数，浮点数。</p>
+<p><strong>字符串（string）</strong><br>
+字符串英文名 string，简称 str，加上单引号、双引号、三引号的内容就是字符串，如：</p>
+<pre><code class="language-python">string ='天晴'
+print(&quot;下雨&quot;)
+</code></pre>
+<p>字符串类型必须有引号，没有引号会报错，特点：单引号、双引号、三引号括起来的文本。</p>
+<p><strong>整数（integer）</strong><br>
+整数英文名 integer， 简称 int，整数是正整数、零和负整数的统称，没有小数点的数字。如：</p>
+<pre><code class="language-python">age = 18 
+height = 192 
+weight = 80
+print(521)
+ 
+</code></pre>
+<p>整数中有其他文字、字母、符号会报错。</p>
+<p><strong>浮点数</strong><br>
+浮点数英文称为 float，浮点型没有简写形式。带有小数点的纯数字定义为浮点数，如：</p>
+<pre><code class="language-python">3.1415926
+95.27
+999.00
+</code></pre>
+<p>浮点数虽然多了小数点，但是它存在一个 bug。因为浮点数的特点，导致它在计算机内运算时，会有四舍五入的差。这是因为 Python 在计算浮点数时，会有相应的转换机制，所以最终的小数精度会缺失。</p>
+<p><strong>四则运算</strong><br>
+Python 运算优先级：先算乘除，再算加减，有括号的先算括号里的，从左往右。如：</p>
+<pre><code class="language-python">print(2*5-2*2)
+print((2+2)*2+(10-8)*2)
+
+输出结果:
+$python main.py
+6
+12
+</code></pre>
+<p><strong>字符串的拼接</strong><br>
+多个变量字符串拼接，可以利用字符串拼接符号【+】，将需要拼接的变量连接在一起。如：</p>
+<pre><code class="language-python">hero = '美国队长'
+title = '漫威漫画'
+action = '取材于'
+print(hero+action+title)
+</code></pre>
+<p>还可以调整拼接顺序, 输出不同内容。</p>
+<p><strong>数据类型的查询— type()函数</strong><br>
+如果需要字符串和整数拼接，可以使用type()函数，只需要把查询的内容放进括号里，type()函数会自动查询它的类型。如：</p>
+<pre><code class="language-python">print(type(1))
+print(type(3.14))
+print(type('路路'))
+
+输出结果：
+&lt;class 'int'&gt; #整数类型
+&lt;class 'float'&gt; #浮点数类型
+&lt;class 'str'&gt; #字符串类型
+</code></pre>
+<p><strong>数据转换</strong><br>
+字符串类型的变量与一个数字类型变量连接起来需要数据转换，数据转换的方法有3个:<br>
+一、str()函数：将其他数据类型转为字符串；<br>
+二、int()函数：将其他数据类型转为整数；<br>
+三、float()函数：将其他数据类型转为浮点数；</p>
+<pre><code class="language-python"># 将整数类型转字符串
+name = '美国队长' #字符串
+num = 2 #整数
+print(name+str(num)) #字符串+字符串
+</code></pre>
+<pre><code class="language-python"># 将字符串类型转整数
+num1 = '3' #字符串
+num2 = '6' #字符串
+print(int(num1)+int(num2)) #整数+整数
+</code></pre>
+<pre><code class="language-python"># 将浮点数转整数
+num = 9.9 #浮点数
+print(int(num)) #整数
+</code></pre>
+<pre><code class="language-python"># 将整数、字符串转浮点类型
+shengao = 180 #整数
+tizhong = 70.5 #浮点类型
+age = '30' #字符串
+print(float(shengao))  #浮点类型
+print(float(tizhong))  #浮点类型
+print(float(age))  #浮点类型
+</code></pre>
+<p><strong>数据转换三个函数总结</strong><br>
+int()  文字类不能转换，小数点抹零取整<br>
+float() 文字类不能转换</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[解决Python2.x和3.x及pip共存教程]]></title>
         <id>https://www.yu1u.org/python2x-3x/</id>
@@ -260,66 +350,6 @@ wokesmart净鞋宝</p>
 <a href="http://www.ouryao.com/forum.php?mod=viewthread&amp;tid=76160">臭氧消毒对湿度的要求-蒲公英论坛</a><br>
 <a href="http://www.360doc.com/content/17/1227/21/35773701_716839443.shtml">臭氧杀菌对空气湿度的要求-360doc</a></p>
 <p>本文由雨路于2020年2月23日 14:26:22最后更新</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[上了斐讯N1的晚班车，分享详细刷机步骤]]></title>
-        <id>https://www.yu1u.org/n1/</id>
-        <link href="https://www.yu1u.org/n1/">
-        </link>
-        <updated>2020-02-19T14:39:46.000Z</updated>
-        <content type="html"><![CDATA[<p>前几天突然想搞一台N1来折腾，就在拼多多上下单了，为了一步到位选择了全新+遥控器+刷机线套餐，配合23块钱优惠券实付110元。打开后发现车还挺稳的，都是全新塑封，遥控器还是原装的，开箱图就不上了，因为当时就没有拍。</p>
-<h2 id="一-刷机准备">一、刷机准备</h2>
-<p>需要用到的工具有：<br>
-电脑：我的是win10 64位-1909版本，鼠标：我的是罗技无线键鼠，一条HDMI线，一条双公头的 USB 线，显示器或电视。</p>
-<p>用到的软件：<br>
-webpad 的《斐讯 T1、N1 官方系统降级工具》<br>
-<a href="https://www.right.com.cn/FORUM/thread-340279-1-1.html">https://www.right.com.cn/FORUM/thread-340279-1-1.html</a><br>
-斐讯盒子N1_YYFROM夏杰语音实用版<br>
-<a href="http://www.yyfrom.com/cms/yyfrom/product/2020-1-5/166.html">http://www.yyfrom.com/cms/yyfrom/product/2020-1-5/166.html</a><br>
-*YYF的固件压缩包里面包含了N1_YYFROM语音版的固件和烧录工具USB_Burning_Tool<br>
-webpad 斐讯天天链N1 官改v2.2【可选】<br>
-<a href="https://www.right.com.cn/forum/thread-338759-1-1.html">https://www.right.com.cn/forum/thread-338759-1-1.html</a></p>
-<h2 id="二-开始刷机">二、开始刷机</h2>
-<p>我是笔记本电脑外接显示器，可以把外接显示器连接N1，同时笔记本电脑可以边刷机边监控N1情况，这种要比连接电视方便。首次开机以后提示配对遥控器，设置好无线网络。完成设置后看到我的固件版本是V2.25的，系统版本在 V2.19 以上都需要先降级才能刷机，降级的方法网上有很多，基本大同小异。在固件版本那里连续点击 4 次，即可看到提示“打开adb”。</p>
-<p>接着打开《斐讯 T1、N1 官方系统降级工具》onekey文件夹内的run.bat批处理，管理员模式运行，选择2---N1降级<br>
-<img src="https://ae01.alicdn.com/kf/U3764f1b1da8c4e828d3dc9ca72e430f4h.jpg" alt="" loading="lazy"><br>
-根据提示操作。</p>
-<p>降级成功会重启，重启之后显示版本没变，但实际已经降级了，接着安装 USB_Burning_Tool 烧录软件，弹出安装驱动，点击安装。然后打开《斐讯 T1、N1 官方系统降级工具》选择3 N1进入线刷模式，N1重启，此时显示器那里应当是无信号输入的。<br>
-把公对公刷机线将N1和电脑连接，N1插在靠 HDMI 接口处的 USB 口，电脑端建议插USB2.0口，我第一次插在USB3.0上没反应，插上以后电脑会提示发现新设备，此时设备管理器应该出现一个libusb-win32 Usb Devices的设备<br>
-<img src="https://ae01.alicdn.com/kf/Uf5674e22382e4c99b7b13c8d12707644y.jpg" alt="" loading="lazy"><br>
-打开USB_Burning_Tool ，如果没有出错的话，设备ID下面应该检测到了设备。</p>
-<h2 id="三-烧录固件">三、烧录固件</h2>
-<p>USB_Burning_Tool 导入固件如图<br>
-<img src="https://ae01.alicdn.com/kf/U117a12cd00f84616935953734fd74470M.png" alt="" loading="lazy"><br>
-根据个人喜好刷YYF或者webpad固件，至于哪个好可以自行了解，后面不习惯都可以重新刷。</p>
-<p>导入后取消勾选如图所示两个选项<br>
-<img src="https://ae01.alicdn.com/kf/U51f5b578e0b04844a36bae86c1d110aee.png" alt="" loading="lazy"><br>
-注意取消勾选右边的【擦除 flash】和【擦除 bootloader】两个选项，否则刷机失败。<br>
-烧录完成后，先点击停止，然后关闭软件，拔出 USB 线，拔出 N1 电源线，重新插电开机，刷机成功。</p>
-<h2 id="四-yyf或webpad系统设置">四、YYF或webpad系统设置</h2>
-<p>底层其实是安卓的，有些设置需要接入鼠标点击，遥控器无法设置。</p>
-<h2 id="五-遇到的一些坑">五、遇到的一些坑</h2>
-<p>坑一、在拼多多上购买的时候还看到一个叫“恩山网络”的店铺在卖，其实并不是恩山论坛的店铺，详见<a href="https://www.right.com.cn/forum/thread-2395696-1-1.html">《恩山网站在“拼多多”、“咸鱼”上无任何店铺，标注“恩山”2字都为冒用！！》</a>，当时差点下单，因为价格有点偏贵就没买，建议选择价格合适的商家，这种翻车产品价格抄得过高就不香了。</p>
-<p>坑二、第二次刷机的时候没有点擦除flash直接刷webpad固件，结果就砖了，救砖的时候看到网上介绍又是拆机TTL刷机的，又是ADB刷机的，搞得特别麻烦，后来看到下面网友分享的帖子就弄好了。<br>
-<img src="https://ae01.alicdn.com/kf/U9de9368ece6946aca6ab05700c7aedc6Y.png" alt="" loading="lazy"><br>
-链接：<a href="https://www.right.com.cn/forum/thread-413863-1-1.html">https://www.right.com.cn/forum/thread-413863-1-1.html</a><br>
-救砖的时候需要把HDMI线断开，不然拔掉电源机器还是通电的，在这个问题上卡了不少时间。</p>
-<p>坑三、如果遇到驱动问题，查阅下面的第三方参考资料。</p>
-<h2 id="六-玩机总结">六、玩机总结</h2>
-<p>N1根据现有的固件可以作以下用途：<br>
-1.电视盒子<br>
-2.小型服务器<br>
-3.游戏机<br>
-4.openwrt路由<br>
-5.PT下载<br>
-绝大部分人都是拿来当电视盒子和路由，其他几项只适合折腾，作生产力还是选择专业的硬件设备比较好。</p>
-<h2 id="参考资料">参考资料</h2>
-<p><a href="https://github.com/real-pin1group/3000web/wiki/teach_n1">《real-pin1group N1教程》</a><br>
-<a href="https://www.jianshu.com/p/105f12a6cecb">《斐讯N1盒子开箱、降级、刷YYF固件全记录》</a><br>
-<a href="https://www.right.com.cn/forum/forum.php?mod=forumdisplay&amp;fid=158&amp;filter=typeid&amp;typeid=21">恩山论坛-斐讯N1板块</a><br>
-<a href="https://www.right.com.cn/forum/thread-413863-1-1.html">《N1刷完ARMBIAN想恢复EMMC超级简单线刷法，还可救砖》</a></p>
-<p>本文由雨路于2020年2月22日 23:19:06 最后更新</p>
 ]]></content>
     </entry>
 </feed>
