@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.yu1u.org</id>
     <title>ご雨 路</title>
-    <updated>2021-03-28T08:10:46.098Z</updated>
+    <updated>2021-03-28T08:22:06.553Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://www.yu1u.org"/>
     <link rel="self" href="https://www.yu1u.org/atom.xml"/>
@@ -105,7 +105,10 @@ float() 文字类不能转换</p>
         <link href="https://www.yu1u.org/python2x-3x/">
         </link>
         <updated>2020-08-25T12:36:39.000Z</updated>
+        <summary type="html"><![CDATA[<p>前段时间在搭建环境，需要在python2.x和3.x之间切换，网上解决共存问题方法都差不多，但都存在一些问题。趁着没事就分享下我的安装过程，这种方法基本已经完美了。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>前段时间在搭建环境，需要在python2.x和3.x之间切换，网上解决共存问题方法都差不多，但都存在一些问题。趁着没事就分享下我的安装过程，这种方法基本已经完美了。</p>
+<!-- more -->
 <h2 id="python-2x和3x-官方下载直连">Python 2.x和3.x 官方下载直连</h2>
 <p><a href="https://www.python.org/ftp/python/2.7.18/python-2.7.18.amd64.msi">Python-2.7.18.amd64</a><br>
 <a href="https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe">Python-3.8.5-amd64</a></p>
@@ -212,12 +215,16 @@ https://www.zhihu.com/question/21641778</p>
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[大理崇圣寺]]></title>
+        <title type="html"><![CDATA[大理崇圣寺三塔]]></title>
         <id>https://www.yu1u.org/dali/</id>
         <link href="https://www.yu1u.org/dali/">
         </link>
         <updated>2020-07-26T03:43:59.000Z</updated>
-        <content type="html"><![CDATA[<p><img src="https://s1.ax1x.com/2020/07/26/ap7xQH.jpg" alt="ap7xQH.jpg" loading="lazy"><br>
+        <summary type="html"><![CDATA[<p>崇圣寺三塔位于大理古城北1.5公里处，西倚苍山应乐峰，东临洱海万顷波。1961年被国务院公布为全国重点文物保护单位，是历史文化名城、全国优秀旅游城市大理的标志和象征、国家级旅游风景名胜区大理的重要人文景观，也是中国南方古老、雄伟的建筑之一。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>崇圣寺三塔位于大理古城北1.5公里处，西倚苍山应乐峰，东临洱海万顷波。1961年被国务院公布为全国重点文物保护单位，是历史文化名城、全国优秀旅游城市大理的标志和象征、国家级旅游风景名胜区大理的重要人文景观，也是中国南方古老、雄伟的建筑之一。</p>
+<!-- more -->
+<p><img src="https://s1.ax1x.com/2020/07/26/ap7xQH.jpg" alt="ap7xQH.jpg" loading="lazy"><br>
 <img src="https://s1.ax1x.com/2020/07/26/ap7OJO.jpg" alt="ap7OJO.jpg" loading="lazy"><br>
 <img src="https://s1.ax1x.com/2020/07/26/ap7vSe.jpg" alt="ap7vSe.jpg" loading="lazy"><br>
 <img src="https://s1.ax1x.com/2020/07/26/ap7XWD.jpg" alt="ap7xwd.jpg" loading="lazy"></p>
@@ -244,7 +251,10 @@ https://www.zhihu.com/question/21641778</p>
         <link href="https://www.yu1u.org/BOSE_SoundLink_Revolve+/">
         </link>
         <updated>2020-03-06T14:23:48.000Z</updated>
+        <summary type="html"><![CDATA[<p>去年在京东买了一台麦博M200十周年纪念版*带蓝牙电脑音响，209元价格入手，日常价格329左右。收到货以后发现调音不符合预期，主要体现在三频都混在一起了，2019年底又以130元卖了出去。家里已经有了小米AI音箱，本来想将就用着吧，反正听个响，后来在抖音看到BOSE SoundLink Mini2觉得还不错就种草了。</p>
+]]></summary>
         <content type="html"><![CDATA[<p>去年在京东买了一台麦博M200十周年纪念版*带蓝牙电脑音响，209元价格入手，日常价格329左右。收到货以后发现调音不符合预期，主要体现在三频都混在一起了，2019年底又以130元卖了出去。家里已经有了小米AI音箱，本来想将就用着吧，反正听个响，后来在抖音看到BOSE SoundLink Mini2觉得还不错就种草了。</p>
+<!-- more -->
 <p>趁着休息和朋友去拿口罩顺便去了BOSE专卖店，体验一了下BOSE音质如何</p>
 <figure data-type="image" tabindex="1"><img src="https://ae01.alicdn.com/kf/U37363aa917284528af8deaaac23c6e97y.jpg" alt="" loading="lazy"></figure>
 <p>到了专卖店，依次试听了SoundLink Mini2、小水壶、大水壶，也试听了QC35II。</p>
