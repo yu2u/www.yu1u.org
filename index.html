@@ -1,248 +1,56 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="">
+
 <head>
-  <meta charset="utf-8">
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="renderer" content="webkit">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>ご雨 路</title>
-<meta name="keywords" content="yu1u,yu1u.org,雨路博客,黑客雨路,黑客园,黑客技术,贵州黑客" />
-<meta name="description" content="雨路博客，创办于2012年，曾是贵州省信息安全技术分享站点。" />
-<link rel="shortcut icon" href="https://www.yu1u.org/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://yu1u-1251240233.cos.ap-chongqing.myqcloud.com/static/tailwind.css">
-<link rel="stylesheet" href="https://www.yu1u.org/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="ご雨 路 - Atom Feed" href="https://www.yu1u.org/atom.xml">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>雨路（yu1u） - Yu1u.ORG</title>
+    <meta name="description" content="这里是kaygb的个人主页，目前站长仍在学习中，每天抽出时间来看书学习，励志成为一个技术很牛的程序员。">
+    <meta name="keywords" content="kaygb,风也温柔,个人主页,程序员">
+    <link rel="icon" type="image/ico" href="//gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 
-  <meta name="description" content="" />
 </head>
+
 <body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <h1>Hi，我是kaygb，这里是我的主页！</h1>
+                <p>很荣幸您能访问我的网站！ 目前我仍在学习中，每天抽出时间来看书学习，励志成为一个技术很牛的程序员。
+                </p>
+                <p>
+                    我很喜欢的一句话：<br>If the moon smiled, she would resemble you.<br> 如果月亮会笑，那么她一定像你一样美！
 
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
-    </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="/dzcp/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        电子产品
-      </a>
-    
-      <a href="https://www.yu1u.org/jswz/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        技术文章
-      </a>
-    
-      <a href="https://www.yu1u.org/yxzs/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        医学知识
-      </a>
-    
-      <a href="/links/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        友情链接
-      </a>
-    
-    <a href="https://www.yu1u.org/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
-</div>
+                </p>
 
-    <div class="max-w-4xl w-full mx-auto ">
-      
-        <header class="flex py-16 md:py-32 mt-12 flex-col md:flex-row px-4 md:px-0 animated fadeIn">
-  <div class="flex-1 order-2 md:order-1 md:pr-16">
-    <div class="text-4xl font-bold text-center md:text-left">
-      ご雨 路
-    </div>
-    <div class="text-xl text-gray-500 mt-4 text-center md:text-left">
-      
-    </div>
-    
-      <div class="mt-8 text-center md:text-left">
-        <a
-          href="/about" 
-          arget="_blank"
-          class="text-sm bg-yellow-50 dark:bg-indigo-500 dark:text-gray-700 font-semibold px-4 py-2 inline-block yellow-btn transition-fast rounded"
-        >了解更多!</a>
-      </div>
-    
-    
-      <div class="mt-8 flex items-center">
-        
-        
-          
-            
-              <div class="relative mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 transition-fast dark:hover:bg-gray-600 wechat">
-                <i class="ri-wechat-line"></i>
-                <img src="\media\images\custom-wechat.jpg" alt="" class="absolute left-0 w-32" style="max-width: initial; top: 100%;" >
-              </div>
-            
-          
-        
-          
-            
-              <a href="mailto:info@yu1u.org" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-mail-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://github.com/yu2u" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-github-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://twitter.com/ban0203" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-twitter-line"></i>
-              </a>
-            
-          
-        
-          
-            
-              <a href="https://weibo.com/ban66/" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-weibo-line"></i>
-              </a>
-            
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-            
-              <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=727353598&amp;site=qq&amp;menu=yes" target="_blank" class="mr-2 w-8 h-8 inline-flex items-center justify-center text-xl hover:bg-gray-200 dark:hover:bg-gray-600 transition-fast">
-                <i class="ri-qq-line"></i>
-              </a>
-            
-          
-        
-      </div>
-    
-  </div>
-  <div class="md:mx-8 flex-shrink-0 self-start rounded-full border-4 border-dotted border-transparent hover:border-yellow-50 p-2 w-32 h-32 order-1 md:order-2 mx-auto s3-dotted">
-    <img class="rounded-full object-cover" src="https://www.yu1u.org/images/avatar.png?v=1601902640455" alt="ご雨 路" width="100%" height="100%">
-  </div>
-</header>
-      
+                <p>Catch me:</p>
+                <div class="row">
+                    <button id="kaygb-blog" class="btn btn-primary col-lg-4">博客</button>
+                    <a href="//eas1.cn" id="kaygb-blog-a" target="_blank" class="btn btn-primary col-lg-4">博客</a>
+                    <a href="https://github.com/kaygb/kaygb/tree/master/v3" target="_blank" class="btn btn-secondary col-lg-4">研究项目</a>
+                    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn" target="_blank" id="kaygb-mail-a" class="btn btn-success col-lg-4">Send a Mail</a>
+                    <button id="kaygb-mail" class="btn btn-success col-lg-4">友情链接</button>
+                </div>
 
-      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://www.yu1u.org/w5wO9m3Te/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Python基础之常用数据类型
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">发布日期：2020-08-28</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        Python 里，常用的数据类型有三种：字符串，整数，浮点数。
-字符串（string）
-字符串英文名 string，简称 str，加上单引号、双引号、三引号的内容就是字符串，如：
-string ='天晴'
-print(&quot;下雨&qu...
-      </div>
-      <a href="https://www.yu1u.org/w5wO9m3Te/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://pic.downk.cc/item/5f451006160a154a676a7002.gif" alt="Python基础之常用数据类型">
-    
-  </div>
 
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://www.yu1u.org/python2x-3x/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          解决Python2.x和3.x及pip共存教程
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">发布日期：2020-08-25</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        前段时间在搭建环境，需要在python2.x和3.x之间切换，网上解决共存问题方法都差不多，但都存在一些问题。趁着没事就分享下我的安装过程，这种方法基本已经完美了。
-Python 2.x和3.x 官方下载直连
-Python-2.7.18.a...
-      </div>
-      <a href="https://www.yu1u.org/python2x-3x/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://pic.downk.cc/item/5f451006160a154a676a7002.gif" alt="解决Python2.x和3.x及pip共存教程">
-    
-  </div>
+               
+                <footer>
+                    <p>Copyright © 2021 - www.yu1u.org Mod by kaygb & github
+                        
 
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://www.yu1u.org/CobaltStrike4.0/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          Cobalt Strike 4.0 初次使用笔记
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">发布日期：2020-08-25</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        Cobalt Strike 4.0 汉化版下载地址：
-链接: https://pan.baidu.com/s/1JH8nZtqmEkgGZtRnLci4IA  提取码: yu1u
-安全性未知，请在虚拟机使用。两个文件都差不多，选择合适的即可...
-      </div>
-      <a href="https://www.yu1u.org/CobaltStrike4.0/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://pic.downk.cc/item/5f44a98d160a154a6710a211.png" alt="Cobalt Strike 4.0 初次使用笔记">
-    
-  </div>
-  
-      </div>
+                    </p>
+                    </p>
 
-      
-  <div class="my-4 flex justify-between px-4 md:px-0">
-    
-    
-      <a href="https://www.yu1u.org/page/2" class="btn btn-white">
-        下一页
-        <i class="ri-arrow-right-line ml-4"></i>
-      </a>
-    
-  </div>
-
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  <div class="btn btn-white"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4528888'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D4528888%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script></div>
-</footer>
+                </footer>
+            </div>
+        </div>
 
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://www.yu1u.org/media/scripts/main.js"></script>
-</body>
+   
 
 </html>

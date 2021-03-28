@@ -1,161 +1,56 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="">
+
 <head>
-  <meta charset="utf-8">
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="renderer" content="webkit">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>ご雨 路</title>
-<meta name="keywords" content="yu1u,yu1u.org,雨路博客,黑客雨路,黑客园,黑客技术,贵州黑客" />
-<meta name="description" content="雨路博客，创办于2012年，曾是贵州省信息安全技术分享站点。" />
-<link rel="shortcut icon" href="https://www.yu1u.org/favicon.ico">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.7.2/animate.min.css">
-<link rel="stylesheet" href="https://yu1u-1251240233.cos.ap-chongqing.myqcloud.com/static/tailwind.css">
-<link rel="stylesheet" href="https://www.yu1u.org/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="ご雨 路 - Atom Feed" href="https://www.yu1u.org/atom.xml">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>雨路（yu1u） - Yu1u.ORG</title>
+    <meta name="description" content="这里是kaygb的个人主页，目前站长仍在学习中，每天抽出时间来看书学习，励志成为一个技术很牛的程序员。">
+    <meta name="keywords" content="kaygb,风也温柔,个人主页,程序员">
+    <link rel="icon" type="image/ico" href="//gravatar.loli.net/avatar/4cc893d113dd74ceca73f9863f2c5446/">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
 
-  <meta name="description" content="" />
 </head>
+
 <body>
-  <div class="antialiased flex flex-col min-h-screen" id="app">
+    <div id="main" class="container">
+        <div class="row my-card justify-content-center">
+            <div class="col-lg-4 photo-bg"></div>
+            <div class="col-lg-8 card">
+                <h1>Hi，我是kaygb，这里是我的主页！</h1>
+                <p>很荣幸您能访问我的网站！ 目前我仍在学习中，每天抽出时间来看书学习，励志成为一个技术很牛的程序员。
+                </p>
+                <p>
+                    我很喜欢的一句话：<br>If the moon smiled, she would resemble you.<br> 如果月亮会笑，那么她一定像你一样美！
 
-    <div class="nav py-3 md:py-8 fixed w-full z-10 bg-gray-50 dark:bg-gray-700 transition-all duration-300" :class="{ 'scroll': scrolled }">
-  <div class="flex justify-end px-4">
-    <div class="w-8 h-8 flex justify-center items-center rounded-full md:hidden" @click="showMenu = !showMenu">
-      <i class="ri-close-line" v-show="showMenu"></i>
-      <i class="ri-menu-3-line" v-show="!showMenu"></i>
-    </div>
-  </div>
-  <nav class="max-w-4xl w-full mx-auto text-center flex flex-col md:flex-row justify-center md:block" :class="`${ showMenu ? 'block' : 'hidden' }`">
-    
-      <a href="/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        首页
-      </a>
-    
-      <a href="/dzcp/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        电子产品
-      </a>
-    
-      <a href="https://www.yu1u.org/jswz/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        技术文章
-      </a>
-    
-      <a href="https://www.yu1u.org/yxzs/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        医学知识
-      </a>
-    
-      <a href="/links/index.html" target="" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-        友情链接
-      </a>
-    
-    <a href="https://www.yu1u.org/atom.xml" target="_blank" class="py-2 md:py-1 px-4 mx-4 inline-flex transition font-semibold rounded dark:hover:bg-gray-600 hover:bg-gray-200">
-      RSS
-    </a>
-  </nav>
-</div>
+                </p>
 
-    <div class="max-w-4xl w-full mx-auto pt-32">
-      
+                <p>Catch me:</p>
+                <div class="row">
+                    <button id="kaygb-blog" class="btn btn-primary col-lg-4">博客</button>
+                    <a href="//eas1.cn" id="kaygb-blog-a" target="_blank" class="btn btn-primary col-lg-4">博客</a>
+                    <a href="https://github.com/kaygb/kaygb/tree/master/v3" target="_blank" class="btn btn-secondary col-lg-4">研究项目</a>
+                    <a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=i@eas1.cn" target="_blank" id="kaygb-mail-a" class="btn btn-success col-lg-4">Send a Mail</a>
+                    <button id="kaygb-mail" class="btn btn-success col-lg-4">友情链接</button>
+                </div>
 
-      <div class="shadow-box bg-white dark:bg-gray-600 border-gray-300 rounded-none md:rounded-lg -mx-1 md:mx-0 md:px-0">
-        
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://www.yu1u.org/BOSE_SoundLink_Revolve+/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          入手了大水壶 BOSE SoundLink Revolve+
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">发布日期：2020-03-06</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        去年在京东买了一台麦博M200十周年纪念版*带蓝牙电脑音响，209元价格入手，日常价格329左右。收到货以后发现调音不符合预期，主要体现在三频都混在一起了，2019年底又以130元卖了出去。家里已经有了小米AI音箱，本来想将就用着吧，反正听...
-      </div>
-      <a href="https://www.yu1u.org/BOSE_SoundLink_Revolve+/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-  </div>
 
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://www.yu1u.org/bzhan/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          最全的bilibili优质学习资源整理
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">发布日期：2020-03-06</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        B站上科技类目下的几乎所有学习资源视频，共计58950个视频，并分类整理成了14个excel！由于出处不清，所以首先感谢源整理者！
+               
+                <footer>
+                    <p>Copyright © 2021 - www.yu1u.org Mod by kaygb & github
+                        
 
-本地下载
-小贴士：使用了国外CDN云减速，建议使用多线程下载或者迅雷下载。
-补充连接：
-[值得买社区网友分...
-      </div>
-      <a href="https://www.yu1u.org/bzhan/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://ae01.alicdn.com/kf/Ue6d0f73b75524c2b98f5dd63c4b97fcfk.jpg" alt="最全的bilibili优质学习资源整理">
-    
-  </div>
+                    </p>
+                    </p>
 
-  <div class="p-8 border-b border-gray-200 dark:border-gray-700 flex relative overflow-hidden flex-col md:flex-row animated fadeIn">
-    
-    <div class="flex-1 order-2 md:order-1">
-      <h2 class="text-2xl font-semibold mb-4">
-        <a href="https://www.yu1u.org/RosDIqfnG/" class="text-gray-700 dark:text-gray-200 border-b-2 border-dotted border-gray-200 dark:border-gray-400 dark:hover:border-gray-200 hover:border-gray-600 transition-all duration-100">
-          小巧的网速内存CPU监控插件：TrafficMonitor
-        </a>
-      </h2>
-      <div class="mb-4 text-xs text-gray-500">发布日期：2020-02-23</div>
-      <div class="mb-4 text-gray-500 dark:text-gray-300">
-        TrafficMonitor 简介
-Traffic Monitor是一款用于Windows平台的网速监控悬浮窗软件，可以显示当前网速、CPU及内存利用率，支持嵌入到任务栏显示，支持更换皮肤、历史流量统计等功能。
-主要特性
-显示当前实现网络传...
-      </div>
-      <a href="https://www.yu1u.org/RosDIqfnG/" class="btn">
-        阅读更多
-      </a>
-    </div>
-    
-      <img class="flex-shrink-0 self-start md:ml-4 mb-4 md:mb-0 rounded-sm object-cover featured-img order-1 md:order-2 w-full h-40 md:w-56 md:h-32" loading="lazy" src="https://ae01.alicdn.com/kf/U48545fcedac245f2b9b968eda8ae482fT.png" alt="小巧的网速内存CPU监控插件：TrafficMonitor">
-    
-  </div>
-  
-      </div>
-
-      
-  <div class="my-4 flex justify-between px-4 md:px-0">
-    
-      <a href="https://www.yu1u.org/page/2/" class="btn btn-white">
-        <i class="ri-arrow-left-line mr-4"></i>
-        上一页
-      </a>
-    
-    
-      <a href="https://www.yu1u.org/page/4/" class="btn btn-white">
-        下一页
-        <i class="ri-arrow-right-line ml-4"></i>
-      </a>
-    
-  </div>
-
-      <footer class="py-12 text-center px-4 md:px-0" v-pre>
-  <div class="btn btn-white"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? "https://" : "http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_4528888'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/stat.php%3Fid%3D4528888%26online%3D2' type='text/javascript'%3E%3C/script%3E"));</script></div>
-</footer>
+                </footer>
+            </div>
+        </div>
 
     </div>
-  </div>
-  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-  <script src="https://www.yu1u.org/media/scripts/main.js"></script>
-</body>
+   
 
 </html>
